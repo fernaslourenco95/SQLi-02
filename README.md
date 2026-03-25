@@ -9,9 +9,11 @@ A falha ocorre quando inputs de utilizador (username/password) são inseridos di
 
 EXs:
 01:
+
 ![SQLi 2](https://github.com/user-attachments/assets/e7957176-59a6-4f7e-8d8f-8359d447ea65)
 
 02:
+
 ![SQLi 2 1](https://github.com/user-attachments/assets/e37ffc34-f7e8-4f3c-8afb-0c908df2ffe4)
 
 ### Vulnerable Login Example (Python)
@@ -45,7 +47,7 @@ SELECT * FROM users
 WHERE username = 'admininistrator'  AND password = 12324
 
 Resultado:
-O Sinal '-- é serviu para ignorar todo o resto que vier depois.
+O Sinal '-- serviu para ignorar todo o resto que vier depois.
 O atacante consegue autenticar-se sem password válida
 
 ### Impacto
